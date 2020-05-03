@@ -2,10 +2,13 @@ import Row from "../components/Row";
 
 export default class ToDoList {
     constructor() {
+        this.addRow = this.addRow.bind(this);
         this.list = [];
         this.todoBox = document.createElement("div");
         this.input = document.createElement("input");
         this.addButton = document.createElement("button");
+        this.addButton.innerText = "Add";
+        this.addButton.addEventListener("click", this.addRow);
         this.listBox = document.createElement("div");
         this.todoBox.append(this.input);
         this.todoBox.append(this.addButton);
@@ -15,15 +18,15 @@ export default class ToDoList {
     }
 
     addRow(arg) {
-        const value = arg.target.value;
+        const value = this.input.value;
         const row = new Row(value);
-        this.list.push(row);
+        this.list.unshift(row);
         this.render();
     }
 
     render() {
-        const htmlRows = this.list.map((item) => item.html);
-        this.listBox.append(htmlRows);
+        const htmlRows = this.list.forEach((item) => this.listBox.append(item.html)
+        );
     }
 
     get html() {

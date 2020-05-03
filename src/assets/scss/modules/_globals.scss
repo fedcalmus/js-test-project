@@ -1,0 +1,90 @@
+//floats
+@each $key,$val in $resolutions {
+  @media (min-width: $val) {
+    // Alignment
+    .float-#{$key}-left {
+      float: left;
+    }
+    .float#{$key}-right {
+      float: right;
+    }
+  }
+}
+
+// Fixes
+.clear-after {
+  @include clear-after;
+}
+
+.ellipsis {
+  @include ellipsis();
+}
+
+// Width
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mh-100vh {
+  min-height: 100vh;
+}
+
+a {
+  transition: all $trns-duration;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// img limit
+
+.img-max-width {
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.img-shape {
+  position: relative;
+
+  &::after {
+    content: '';
+    width: 100%;
+    max-width: 618px;
+    height: 371px;
+    @include position($bottom: -70px);
+    z-index: -1;
+  }
+
+  &.left {
+
+    &::after {
+      background-color: $color-secondary;
+      right: -260px;
+      bottom: -70px;
+    }
+  }
+
+  &.right {
+
+    &::after {
+      background-color: $color-primary-20;
+      left: -205px;
+    }
+  }
+}

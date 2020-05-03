@@ -1,0 +1,79 @@
+// Paths
+$fonts-folder: "../fonts";
+$images-folder: '../img/';
+
+// Fonts
+$font-primary: 'Source Sans Pro', sans-serif;
+$font-secondary: 'Poppins', sans-serif;
+$font-icons: "Gear Icomoon";
+
+// Theme colors
+$color-primary: #16DB94;
+$color-primary-20: rgba($color-primary, 0.2);
+$color-secondary: #F4E4C2;
+$color-dark: #000000;
+$color-dark-80: rgba(#000000, 0.8);
+$color-light: #ffffff;
+$color-highlight: #39a4cd;
+$color-warning: #e44c23;
+
+// Descriptive Base Colors
+$color-text-dark: rgba($color-dark, 0.5);
+$color-text-light: rgba($color-light, 0.5);
+$body-bg: #F6F6F6;
+
+// Text
+$base-font-size: 20px;
+
+// Font-sizes
+
+$fs-sm: 14px;
+$fs-md: 16px;
+$fs-lg: 18px;
+$fs-xl: 20px;
+$fs-xxl: 24px;
+
+// Heading font sizes
+
+$h1: 72px;
+$h2: 54px;
+$h3: 44px;
+$h4: 24px;
+$h5: 22px;
+$h6: 20px;
+
+// Border Radiuses
+
+$br-default: 4px;
+$br-md: 10px;
+$br-lg: 30px;
+$br-rounded: 50%;
+$br-none: 0;
+
+// Font weights
+$fw-100: 100;
+$fw-200: 200;
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+// Transitions
+$trns-duration: .3s;
+$trns-duration-md: 0.4s;
+$trns-duration-lg: 0.7s;
+$trns-delay: 50ms;
+
+//container
+$cont-width: 1440px;
+$cont-padding: 30px;
+
+//Resolutions
+$screen-lg: 1280px;
+$screen-md: 1024px;
+$screen-sm: 768px;
+$screen-xs: 480px;
+$screen-xxs: 360px;

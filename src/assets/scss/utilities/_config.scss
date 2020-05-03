@@ -1,0 +1,71 @@
+$resolutions: (
+        xxs: $screen-xxs,
+        xs: $screen-xs,
+        sm: $screen-sm,
+        md: $screen-md,
+        lg: $screen-lg
+) !default;
+
+$spaces: (
+        1: 5px,
+        2: 10px,
+        3: 15px,
+        4: 20px,
+        5: 25px,
+        6: 30px,
+        7: 35px,
+        8: 40px,
+        9: 45px,
+        10: 50px
+) !default;
+
+$font-weights: (
+        100: $fw-100,
+        200: $fw-200,
+        300: $fw-300,
+        400: $fw-400,
+        500: $fw-500,
+        600: $fw-600,
+        700: $fw-700,
+        800: $fw-800,
+        900: $fw-900
+);
+
+$text-font-sizes: (
+        sm: $fs-sm,
+        md: $fs-md,
+        lg: $fs-lg,
+        xl: $fs-xl,
+        xxl: $fs-xxl
+) !default;
+
+$font-families: (
+        primary: $font-primary,
+        secondary: $font-secondary
+) !default;
+
+$heading-font-sizes: (
+        h6: $h6,
+        h5: $h5,
+        h4: $h4,
+        h3: $h3,
+        h2: $h2,
+        h1: $h1
+) !default;
+
+$colors: (
+        primary: $color-primary,
+        primary-20: $color-primary-20,
+        secondary: $color-secondary,
+        highlight: $color-highlight,
+        text-light: $color-text-light,
+        text-dark: $color-text-dark,
+        warning: $color-warning,
+        dark: $color-dark,
+        dark-80: $color-dark-80,
+        light: $color-light,
+) !default;
+
+$grid-cols-count: 12;
+$grid-spacing: 15px;
+$grid-spacing-lg: 45px;

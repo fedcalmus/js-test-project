@@ -1,0 +1,14 @@
+.banner {
+    min-height: 100vh;
+    position: relative;
+
+    .banner-content {
+        @include position();
+        @include YAlign();
+        max-width: 651px;
+
+        .btn {
+            margin-top: 65px;
+        }
+    }
+}

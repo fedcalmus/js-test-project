@@ -1,0 +1,174 @@
+// About us sections
+
+.about-us {
+    padding-top: 104px;
+    padding-bottom: 104px;
+
+    .section-img {
+        width: 100%;
+        max-width: 568px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .content {
+        max-width: 665px;
+    }
+}
+
+// Info section
+
+.info {
+    padding-top: 86px;
+
+}
+
+// Section with img and content
+
+.img-with-content {
+    overflow: hidden;
+    padding-top: 65px;
+    padding-bottom: 105px;
+
+    .s-title {
+        margin-top: 10px;
+        margin-bottom: 83px;
+    }
+
+    .content {
+        max-width: 579px;
+    }
+
+    &.img-right {
+
+        .content {
+            text-align: right;
+        }
+    }
+}
+
+// Our partner section
+
+.our-partner {
+    margin-top: 60px;
+    padding-top: 52px;
+    padding-bottom: 73px;
+
+    .img-wrapper {
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+        border-radius: 15px;
+
+    /*    img {
+            box-shadow: 30px 33px 76px rgba(#181527, 0.15);
+            border-radius: 15px;
+        }*/
+
+        .wire-frame {
+            position: relative;
+            overflow: hidden;
+            max-width: 698px;
+            background: #FEF1D5;
+            height: 447px;
+            z-index: 2;
+            border-radius: 15px;
+
+            &::before {
+                content: url("../img/wire-frame.svg");
+                @include position($top: -2px, $left: 0);
+                height: 30px;
+                z-index: 2;
+            }
+
+            &::after {
+                content: url("../img/gear-landing.png");
+                display: block;
+                -webkit-animation-duration: 5s;
+                animation-duration: 5s;
+                -webkit-animation-name: scrollCoverBrowser;
+                animation-name: scrollCoverBrowser;
+                -webkit-animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);
+                animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);
+                -webkit-animation-direction: alternate;
+                animation-direction: alternate;
+                -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+                @include position($top: 26px, $left: 4px);
+                transition: all 2500ms;
+                transition-timing-function: cubic-bezier(0.000, 0.785, 0.000, 1.000);
+                height: auto;
+                max-width: 100%;
+            }
+
+            &:hover {
+
+                &::after {
+                    transform: translateY(-66%);
+                }
+            }
+        }
+    }
+
+    .content {
+        max-width: 534px;
+    }
+
+    .app-stores {
+
+        li {
+            margin-right: 10px;
+
+            img {
+                max-width: 140px;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+// Our features section
+
+.our-features {
+    padding-top: 55px;
+    padding-bottom: 105px;
+
+    .s-title {
+        margin-bottom: 67px;
+    }
+
+    .item {
+
+        i {
+            margin-top: 7px;
+            font-size: 73px;
+        }
+
+        .content {
+            max-width: 405px;
+        }
+    }
+}
+
+// Get a quote
+
+.get-a-quote {
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    .section-img {
+        max-width: 503px;
+        margin-top: 78px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,251 @@
+@import "variables";
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: $font-icons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-flow .path1 {
+  &:before {
+    content: $icon-flow-path1;
+    color: rgb(244, 228, 194);
+  }
+}
+.icon-flow .path2 {
+  &:before {
+    content: $icon-flow-path2;
+    margin-left: -1.396484375em;
+    color: rgb(244, 228, 194);
+  }
+}
+.icon-flow .path3 {
+  &:before {
+    content: $icon-flow-path3;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path4 {
+  &:before {
+    content: $icon-flow-path4;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path5 {
+  &:before {
+    content: $icon-flow-path5;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path6 {
+  &:before {
+    content: $icon-flow-path6;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path7 {
+  &:before {
+    content: $icon-flow-path7;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path8 {
+  &:before {
+    content: $icon-flow-path8;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path9 {
+  &:before {
+    content: $icon-flow-path9;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path10 {
+  &:before {
+    content: $icon-flow-path10;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path11 {
+  &:before {
+    content: $icon-flow-path11;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path12 {
+  &:before {
+    content: $icon-flow-path12;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-flow .path13 {
+  &:before {
+    content: $icon-flow-path13;
+    margin-left: -1.396484375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-raket .path1 {
+  &:before {
+    content: $icon-raket-path1;
+    color: rgb(244, 228, 194);
+  }
+}
+.icon-raket .path2 {
+  &:before {
+    content: $icon-raket-path2;
+    margin-left: -0.9208984375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path1 {
+  &:before {
+    content: $icon-calendar-path1;
+    color: rgb(244, 228, 194);
+  }
+}
+.icon-calendar .path2 {
+  &:before {
+    content: $icon-calendar-path2;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path3 {
+  &:before {
+    content: $icon-calendar-path3;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path4 {
+  &:before {
+    content: $icon-calendar-path4;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path5 {
+  &:before {
+    content: $icon-calendar-path5;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path6 {
+  &:before {
+    content: $icon-calendar-path6;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path7 {
+  &:before {
+    content: $icon-calendar-path7;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path8 {
+  &:before {
+    content: $icon-calendar-path8;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path9 {
+  &:before {
+    content: $icon-calendar-path9;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path10 {
+  &:before {
+    content: $icon-calendar-path10;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path11 {
+  &:before {
+    content: $icon-calendar-path11;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path12 {
+  &:before {
+    content: $icon-calendar-path12;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path13 {
+  &:before {
+    content: $icon-calendar-path13;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path14 {
+  &:before {
+    content: $icon-calendar-path14;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path15 {
+  &:before {
+    content: $icon-calendar-path15;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path16 {
+  &:before {
+    content: $icon-calendar-path16;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path17 {
+  &:before {
+    content: $icon-calendar-path17;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path18 {
+  &:before {
+    content: $icon-calendar-path18;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}
+.icon-calendar .path19 {
+  &:before {
+    content: $icon-calendar-path19;
+    margin-left: -1.375em;
+    color: rgb(16, 16, 16);
+  }
+}

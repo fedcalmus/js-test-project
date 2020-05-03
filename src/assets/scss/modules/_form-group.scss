@@ -1,0 +1,43 @@
+.form-group {
+
+    input, textarea {
+        padding: 14px 15px;
+        border: 1px solid;
+        transition: all $trns-duration;
+        width: 100%;
+        font-family: $font-primary;
+        font-size: $fs-md;
+    }
+
+    input {
+        line-height: 20px;
+    }
+
+    textarea {
+        min-height: 142px;
+        resize: none;
+    }
+
+    &.light {
+
+        input, textarea {
+            background-color: rgba(#ffffff, 0.05);
+            color: $color-text-light;
+            border-color: rgba(#ffffff, 0.2);
+
+            &:focus {
+                border-color: $color-light;
+                color: $color-light;
+            }
+        }
+    }
+}
+
+// Label styles
+
+.form-label {
+    display: block;
+    font-size: $fs-md;
+    margin-bottom: 10px;
+    @include ellipsis
+}

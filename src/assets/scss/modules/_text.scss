@@ -1,0 +1,72 @@
+@each $key,$val in $resolutions {
+  @media (min-width: $val) {
+    // Alignment
+    .text-#{$key}-left {
+      text-align: left;
+    }
+    .text-#{$key}-right {
+      text-align: right;
+    }
+    .text-#{$key}-center {
+      text-align: center;
+    }
+    .text-#{$key}-justify {
+      text-align: justify;
+    }
+  }
+}
+
+// Transformation
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-with-line {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: '';
+    width: 100%;
+    @include position($left: 0, $right: 0);
+    z-index: -1;
+  }
+
+  &.secondary {
+
+    &::after {
+      background-color: $color-secondary;
+      height: 12px;
+    }
+  }
+
+  &.primary {
+
+    &::after {
+      background-color: $color-primary;
+      height: 10px;
+    }
+  }
+
+  &.bottom-sm {
+
+    &::after {
+      bottom: 10px;
+    }
+
+  }
+
+  &.bottom-lg {
+
+    &::after {
+      bottom: 16px;
+    }
+  }
+}
